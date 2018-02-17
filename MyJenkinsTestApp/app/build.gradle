@@ -17,6 +17,10 @@ android {
         abortOnError false
     }
 
+    testOptions
+            {
+                unitTests.returnDefaultValues = true
+            }
     buildTypes {
         release {
             minifyEnabled false
